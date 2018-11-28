@@ -22,9 +22,13 @@ MQTT topic: `/ltech/deviceMacAddress/command`
 
 ### Commands
 status: ON | OFF
+
 turnBright
+
 turnStandby
+
 turnFullWhite
+
 (...) - needs addition according to: CmdDateBussiness.java
 
 
