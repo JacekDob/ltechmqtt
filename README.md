@@ -12,4 +12,4 @@ exports.deviceMacAddress = 'aabbccddeeff';
 ```
 
 # Run
-`node ltechmqtt.js` or `./ltechmqtt`
+`node ltechmqtt.js` or `./ltechmqtt.js`
