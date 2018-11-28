@@ -13,3 +13,20 @@ exports.deviceMacAddress = 'aabbccddeeff';
 
 # Run
 `node ltechmqtt.js` or `./ltechmqtt.js`
+
+# Integration
+Integration by mqtt.
+
+## Send command
+MQTT topic: `/ltech/deviceMacAddress/command`
+
+### Commands
+status: ON | OFF
+turnBright
+turnStandby
+turnFullWhite
+(...) - needs addition according to: CmdDateBussiness.java
+
+
+## Receive state
+MQTT topic: `/ltech/deviceMacAddress/state`
